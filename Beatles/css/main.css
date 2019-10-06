@@ -1,0 +1,82 @@
+*{
+  box-sizing:border-box;
+ }
+
+html{  
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.container{
+  width: 96rem;
+  margin: 0 auto;
+}
+
+header > h1{
+  padding-left: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 7rem;
+  background-color: #fc0000;
+}
+
+h1 span {
+  color:#003284;
+}
+
+nav{
+  margin-bottom: 1.5rem;
+  background-color: #003284;
+}
+
+nav li > a{
+  color: white;
+  display: inline-block;
+  margin: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+main{
+  margin-left: 1rem;
+}
+
+article > h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+article > h2 > a{
+  color: #0000ff;
+}
+article > p {
+  margin-bottom: 1rem;
+}
+article > p:first-of-type{
+  font-size: 1rem;
+}
+
+article > p:nth-of-type(2) > span {
+  border: 0.1rem solid #cccccc;
+  text-transform: uppercase;
+}
+
+article > p:last-of-type > span {
+  background-color: #072d6a;
+  color: #ffffff;
+  padding: 0.2rem;
+}
+/*--------- PAGINA2 --------*/
+
+.intro{
+  font-weight: bold;
+}
+

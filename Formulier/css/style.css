@@ -1,0 +1,82 @@
+/*
+Gebruikte kleuren:
+- blauw: #3366cc
+*/
+#container {
+    width: 972px;
+    margin: 0 auto;        
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-size: .875em;
+}
+
+header {
+    font-size: 90%;
+    height: 20px;
+    margin-top: 5px;
+}
+
+header > ul {    
+    margin: 0;
+    padding: 0;
+}
+
+header > ul:first-child {
+    float: left;
+}
+
+header > ul:last-child{
+    float: right;
+}
+
+header > ul > li {
+    list-style-type: none;
+    display: inline;
+}
+
+header > ul:first-child > li{    
+    padding-right: 10px;
+}
+
+header > ul:last-child > li{
+    padding-left: 10px;
+}
+main a{
+    text-decoration: none;
+    color: #3366cc;    
+}
+fieldset {
+    margin-top: 10px;
+    border: 0px;
+}
+input[type=submit] {
+    background: #3366cc;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border-bottom: 1px solid gray;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+legend {
+    font-weight: bold;
+}
+
+col:first-of-type {
+    width: 215px;
+}
+col:last-of-type {
+    width: 400px;
+}
+
+
+
+
