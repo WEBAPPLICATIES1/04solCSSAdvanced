@@ -1,7 +1,5 @@
 /*
-1. zorg ervoor dat alle menu-items horizontaal komen te staan
-2. zorg ervoor dat America en Asia niet zichtbaar zijn, maar witruimte in de plaats komt.
-3. zorg ervoor dat America en Asia niet zichtbaar zijn, maar geen witruimte in de plaats komt.
+Kleuren: #6789ab; #5ea6ee; white black red
 */
 *{
     box-sizing: border-box;
@@ -10,6 +8,7 @@ body{
     font-family:  monospace;
     font-size: 1.4em;
 }
+
 nav a{
     display: inline-block;
     width: 100%;
@@ -17,19 +16,22 @@ nav a{
     color: #6789ab;
     padding: 5px 0px;
 }
-nav a:hover{
-    background-color: #5ea6ee;
-    color: white;
-}
+
 nav ul{
-    list-style-type: none;
     padding-left: 0px;
 }
 nav li{
     display: inline-block;
     width: 15%;
     border: 1px solid black;
+    border-radius: 0.5em;
     text-align: center;
+}
+nav li:hover{
+    background-color: #5ea6ee;
+}
+nav a:hover{
+    color: white;
 }
 section{
     border-bottom: 1px dashed red;
@@ -45,4 +47,3 @@ header, main{
     width: 1080px;
     margin: 10px auto;
 }
-
